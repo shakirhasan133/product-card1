@@ -1,0 +1,88 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.product{
+    max-width:1080px;
+    margin: 0 auto;
+}
+.p-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(158, 12, 12);
+}
+img{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.p-card{
+    box-shadow: 1px 1px 10px 1px ;
+    border-radius: 10px;
+    padding: 20px 0;
+}
+.p-container h4{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(158, 12, 12);
+}
+.p-container p{
+    padding: 0 5px;
+}
+.p-container i{
+    color:rgb(221, 97, 8) ;
+}
+.ratting{
+    display: inline;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.price-btn p{
+    text-align: center;
+    background-color: rgb(255, 136, 10);
+    padding: 5px 0;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+.price-btn button{
+    background-color: rgb(221, 97, 8);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    transition: .5s;
+}
+.price-btn button:hover{
+    background-color: rgb(141, 62, 6);
+}
+.price-btn a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+@media screen and (max-width:576px)  {
+    .card-container{
+        flex-direction: column;
+    }
+    img{
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+}
